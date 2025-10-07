@@ -1,0 +1,63 @@
+This summary provides the main concepts and distinctions discussed in the sources, organized for exam preparation.
+
+***
+
+
+### I. Distinction Between Programs and Professional Software Products (1.2.1)
+
+| Feature              | Programs (Toy Software)                                          | Professional Software Products                                                                                                        |   |   |
+|----------------------|------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|---|---|
+| **Development/Size** | Usually small in size; limited functionality.                    | Often too **large and complex** to be developed by a single person.                                                                   |   |   |
+| **Developers**       | Developed by individuals (students, hobbyists).                  | Developed by a **group of developers working in a team**.                                                                             |   |   |
+| **Users**            | Author is usually the sole user.                                 | Usually have **multiple users** and a diverse range of customers.                                                                     |   |   |
+| **User Interface**   | Usually lacks good user-interface.                               | Has **good user-interface**.                                                                                                          |   |   |
+| **Documentation**    | Lacks supporting documents (user manual, design document, etc.). | Includes the program code PLUS all associated documents (requirements specification, design document, test document, users' manuals). |   |   |
+| **Quality**          | May have poor maintainability, efficiency, and reliability.      | **Systematically designed, carefully implemented, and thoroughly tested**.                                                            |   |   |
+
+### II. Role of Software Engineering Principles
+
+*   Software engineering principles are primarily intended for use in the development of **professional software**.
+*   A **systematic development methodology** is necessary for teams developing professional software so they can interface, understand each other’s work, and produce a **coherent set of documents**.
+*   Rigid adherence to software engineering principles is often **not worthwhile** when developing small programs for personal use. The sources compare this inefficiency to using a gun to kill an ant or employing civil engineering principles to build sand castles.
+
+### III. Classification of Software Development Projects (1.2.2)
+
+Software development projects are broadly classified into two types: **Product Development Projects** and **Services Type of Projects**.
+
+#### A. Software Product Development
+
+Projects involve developing software that is available **off-the-shelf for purchase**.
+
+1.  **Generic Product Development**
+    *   **Definition:** Developing software that is sold to a **large number of customers**.
+    *   **Market Type:** Said to have a **horizontal market**.
+    *   **Specification:** The development team draws up the product specification based on determining features useful to a **large cross section of users** and collecting feedback.
+    *   **Examples:** Microsoft’s Windows operating system and Office suite, Oracle 8i database management software.
+    *   **Product Lines:** Many companies develop product lines that target slightly different market segments (e.g., Windows 8 for desktops, Windows mobile for handsets, Windows server for servers).
+    *   **Risk/Revenue:** Entails **substantial upfront investment** and risk of customer acceptance, but yields an **uninterrupted stream of revenue** spread over several years.
+
+2.  **Domain Specific Product Development**
+    *   **Definition:** Sold to **specific categories of customers** (called verticals).
+    *   **Market Type:** Said to have a **vertical market**.
+    *   **Target Segments:** Banking, telecommunication, finance and accounts, and medical.
+    *   **Examples:** BANCS and FINACLE (banking domain), AspenPlus (chemical process simulation).
+
+#### B. Software Services Projects
+
+*   **Gamut of Services:** Covers a large range of activities, including **customization, outsourcing, maintenance, testing, and consultancy**.
+*   **Current Trend:** This segment is experiencing **rapid growth** and is poised to become the **dominant type** of software project globally.
+*   **Reason for Growth:** Steep growth in the **available code base** means programs are usually developed by **customizing some existing software** rather than writing from scratch.
+*   **Duration:** Heavy reuse of code allows large software systems to be developed in rather short periods. Typical project durations are now **only a couple of months**, and multi-year projects are rare.
+
+1.  **Outsourced Software**
+    *   **Definition:** A company delegates parts of its large project development work to other companies.
+    *   **Reasons for Outsourcing:** Lack of sufficient internal expertise for specific parts, or determination that certain parts can be developed **cost-effectively** by another company.
+    *   **Size/Duration:** Usually small in size and must be completed quickly (a few weeks or months).
+    *   **Risk/Revenue:** Less risky than generic product development, but fetches ** only one-time revenue** for the developing company.
+
+### IV. Indian Software Companies (1.2.3)
+
+*   Indian software companies have globally **excelled in executing software services projects**.
+*   They were possibly **risk averse** regarding generic product development due to the substantial upfront investment and inherent business risk.
+*   Of late, Indian companies have begun to focus on product development as well.
+*   The services segment has recently been growing faster than the product segment globally, partly due to the advent of **application service provisioning and cloud computing**.
