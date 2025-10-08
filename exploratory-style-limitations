@@ -1,0 +1,51 @@
+## The main important points regarding software development styles and program size complexity are summarized below, with each point contained in a single sentence:
+
+1.) The **exploratory software development style** causes the required development effort and time to increase **almost exponentially** as the program size increases.
+
+2.) The exploratory development approach **breaks down** and becomes practically meaningless when solving large problems, regardless of the effort invested.
+
+3.) When development is carried out using **software engineering principles**, it becomes possible to solve problems with effort and time that is **almost linear** in program size.
+
+4.) The exponential growth of effort under the exploratory style is linked to **human cognitive limitations** because the perceived or psychological complexity of a problem grows exponentially with its size.
+
+5.) Software engineering principles help contain this exponential rise in complexity by making extensive use of **abstraction and decomposition techniques**.
+
+6.) The lack of proper design when using the exploratory style results in **unmaintainable, highly unstructured, and poor quality code**.
+
+7.) The exploratory style makes **team development very difficult** since the absence of proper design and documentation prevents the meaningful concurrent partitioning of work among developers.
+
+***
+
+## Software Engineering Principles: Abstraction and Decomposition
+
+The central theme of most software engineering principles is the deployment of techniques to effectively tackle problems arising due to **human cognitive limitations**. Two fundamental principles used to overcome these limitations and handle problem complexity are **Abstraction** and **Decomposition**.
+
+### I. The Principle of Abstraction
+
+Abstraction is a fundamental technique for simplifying complex problems by managing detail.
+
+| Key Concept               | Details                                                                                                                                                                                                                                                                                                                                                                               |
+|---------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+                              on only **one or two specific aspects** while omitting all others.                                                                                                                                                                                                                                                                                                                    |
+| **Alternative Term**      | The principle of constructing an abstraction is popularly known as **modelling** (or model construction).                                                                                                                                                                                                                                                                             |                                                                           
+| **Purpose/Usage**         | We understand a problem by **abstracting out different aspects** (constructing different types of models). The proper use of this principle is highly effective in mastering even intimidating problems.                                                                                                                                                                              |                                                                           
+| **Characteristics**       | **Multiple abstractions** are possible for the same object (e.g., a country), with each one ignoring certain characteristics (e.g., a physical map ignores political boundaries).                                                                                                                                                                                                     |                                                                            
+| **Abstraction Hierarchy** | For complex problems, modeling requires a **hierarchy of abstractions**. The **most abstract representation** is at the top level, containing only a few items and being the easiest to understand. 
+                              Details are progressively added at each **successive level**. Mastering the problem is achieved by 
+                              understanding this hierarchy level by level until the lowest level is reached. 
+| **Quality**               | May have poor maintainability, efficiency, and reliability.                                                                                                                                                                                                                                                                                                                           | 
+
+
+### II. The Principle of Decomposition
+
+Decomposition is used extensively by software engineering techniques to contain the **exponential growth of the perceived problem complexity**.
+
+| Key Concept                             | Details                                                                                                                                                            
+|-----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Definition**                          | Decomposition advocates for breaking the problem into many **small independent parts**. These small parts are then taken up one by one and solved separately.      |                                                                          
+| **Alternative Term**                    | The decomposition principle is popularly known as the **divide and conquer principle**.                                                                            |                                                                           
+| **Benefit**                             | The idea is that each small, decomposed part is easier to **grasp and understand** and can be easily solved. The full problem is solved when all parts are solved. |                                                                           
+| **Critical Requirement (Independence)** | **Arbitrary decomposition** does not help solve the problem. The decomposed parts **must be more or less independent of each other**.                              |
+| **Consequence of Dependence**           | If solving one part requires referring to and understanding other parts, this effectively reduces the issue back to the **original problem** before decomposition. |                                                                          
+| **Quality**                             | May have poor maintainability, efficiency, and reliability.                                                                                                        | 
+
